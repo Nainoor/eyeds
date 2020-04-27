@@ -54,11 +54,11 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => env('DB_HOST', 'db4free.net'),
-            'port'      => env('DB_PORT', '3306'),
-            'database'  => env('DB_DATABASE', 'eyedsdb'),
-            'username'  => env('DB_USERNAME', 'eyeds'),
-            'password'  => env('DB_PASSWORD', 'eyeds@321'),
+            'host'      => 'db4free.net',
+            'port'      => '3306',
+            'database'  => 'eyedsdb',
+            'username'  => 'eyeds',
+            'password'  => 'eyeds@321',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
@@ -68,10 +68,10 @@ return [
 
         'pgsql' => [
             'driver'   => 'pgsql',
-            'host'     => env('DB_HOST', 'localhost'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'host'     => 'DB_HOST', 'localhost',
+            'database' => 'forge',
+            'username' => 'forge',
+            'password' => '',
             'charset'  => 'utf8',
             'prefix'   => '',
             'schema'   => 'public',
@@ -79,10 +79,10 @@ return [
 
         'sqlsrv' => [
             'driver'   => 'sqlsrv',
-            'host'     => env('DB_HOST', 'localhost'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'host'     => 'localhost',
+            'database' => 'forge',
+            'username' => 'forge',
+            'password' => '',
             'charset'  => 'utf8',
             'prefix'   => '',
         ],
