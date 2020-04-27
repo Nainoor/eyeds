@@ -57,7 +57,7 @@ return [
             'host'      => 'db4free.net',
             'port'      => '3306',
             'database'  => 'eyedsdb',
-            'username'  => 'eyeds',
+            'username'  => 'eyedsdev',
             'password'  => 'eyeds@321',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
